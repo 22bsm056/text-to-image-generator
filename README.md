@@ -10,14 +10,8 @@ Secure Configuration: Environment-based API key management
 Cloud Ready: One-click deployment on Render
 
 
-HOW TO RUN(linux cli, python3.10)
-step 1: git clone https://github.com/22bsm056/text-to-image-generator.git 
-step 2: cd text-to-image-generator
-step 3: python -m venv venv 
-step 4: source venv/bin/activate
-step5: pip install -r req.txt
-step5: create .env file in root directory (parallel to run.py) and set hugging face api 
-step6: python3 run.py
-step7: go to localhost:port 
+<img width="992" height="331" alt="image" src="https://github.com/user-attachments/assets/a23e1905-955f-4462-a1dd-b07c3fd8d7fe" />
+
+
 
 
