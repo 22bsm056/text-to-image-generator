@@ -10,15 +10,14 @@ Secure Configuration: Environment-based API key management
 Cloud Ready: One-click deployment on Render
 
 
-🏗️ Project Structure
-image_generator_app/
-├── app/
-│   ├── __init__.py
-│   ├── main.py             # FastAPI application & routes
-│   ├── image_service.py    # Core image generation logic
-│   └── templates/
-│       └── index.html      # User interface
-├── run.py                  # Local development server
-├── requirements.txt        # Python dependencies
-├── .env.example           # Environment variables template
-└── README.md              # Project documentation
+HOW TO RUN(linux cli, python3.10)
+step 1: git clone https://github.com/22bsm056/text-to-image-generator.git 
+step 2: cd text-to-image-generator
+step 3: python -m venv venv 
+step 4: source venv/bin/activate
+step5: pip install -r req.txt
+step5: create .env file in root directory (parallel to run.py) and set hugging face api 
+step6: python3 run.py
+step7: go to localhost:port 
+
+
